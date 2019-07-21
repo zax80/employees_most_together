@@ -1,0 +1,22 @@
+﻿<Window x:Class="AssignmentTeamLongestPeriod.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AssignmentTeamLongestPeriod"
+        mc:Ignorable="d"
+        Title="Team periods" Height="450" Width="800">
+    <DockPanel Margin="10">
+        <WrapPanel HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="0,0,0,10" >
+            <Button Name="btnOpenFile" Click="btnOpenFile_Click">Open file</Button>
+        </WrapPanel>
+        <DataGrid Name="gridEmployeesOverlap" ItemsSource="{Binding}" AutoGenerateColumns="False" ColumnWidth="*">
+            <DataGrid.Columns>
+                <DataGridTextColumn  Header="Employee1 ID" Binding="{Binding Employee1ID}" />
+                <DataGridTextColumn  Header="Employee2 ID" Binding="{Binding Employee2ID}" />
+                <DataGridTextColumn  Header="Project ID" Binding="{Binding ProjectID}" />
+                <DataGridTextColumn  Header="Days worked" Binding="{Binding DaysOn}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>
