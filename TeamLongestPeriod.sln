@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentTeamLongestPeriod", "AssignmentTeamLongestPeriod\AssignmentTeamLongestPeriod.csproj", "{243B86B0-0871-4750-AF4F-8E5F4A6E5689}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamLongestPeriod", "TeamLongestPeriod\TeamLongestPeriod.csproj", "{243B86B0-0871-4750-AF4F-8E5F4A6E5689}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
